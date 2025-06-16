@@ -1,0 +1,6 @@
+@DulceFacil.APIWEB_HostAddress = http://localhost:5232
+
+GET {{DulceFacil.APIWEB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

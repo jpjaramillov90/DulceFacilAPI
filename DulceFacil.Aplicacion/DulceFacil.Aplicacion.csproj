@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ServicioEntidad\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DulceFacil.Dominio.Modelo\DulceFacil.Dominio.Modelo.csproj" />
+    <ProjectReference Include="..\DulceFacil.Dominio.Servicio\DulceFacil.Dominio.Servicio.csproj" />
+    <ProjectReference Include="..\DulceFacil.Infraestructura.AccesoDatos\DulceFacil.Infraestructura.AccesoDatos.csproj" />
+    <ProjectReference Include="..\DulceFacil.Infraestructura.CrossCuting\DulceFacil.Infraestructura.CrossCuting.csproj" />
+    <ProjectReference Include="..\DulceFacil.Infraestructura.ServicioEmail\DulceFacil.Infraestructura.ServicioEmail.csproj" />
+    <ProjectReference Include="..\DulceFacil.Infraestructura.ServiciosExternos\DulceFacil.Infraestructura.ServiciosExternos.csproj" />
+  </ItemGroup>
+
+</Project>
