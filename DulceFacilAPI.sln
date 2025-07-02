@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36202.13 d17.14
+VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.InterfazUsuario", "1.InterfazUsuario", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulceFacil.Infraestructura.ServicioEmail", "DulceFacil.Infraestructura.ServicioEmail\DulceFacil.Infraestructura.ServicioEmail.csproj", "{7AD1234A-E85E-4B92-B9AD-4FD66807808E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DulceFacil.Infraestructura.ServiciosExternos", "DulceFacil.Infraestructura.ServiciosExternos\DulceFacil.Infraestructura.ServiciosExternos.csproj", "{BEBE933B-112C-42EC-9FCE-A39727FEA9E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{B33B7B24-7A28-4BE8-984D-F9E41CEA305A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDulceFacilAPI", "TestDulceFacilAPI\TestDulceFacilAPI.csproj", "{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{BEBE933B-112C-42EC-9FCE-A39727FEA9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEBE933B-112C-42EC-9FCE-A39727FEA9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEBE933B-112C-42EC-9FCE-A39727FEA9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +93,7 @@ Global
 		{C1A08E61-4241-4B2D-B784-C7A593DB6662} = {DD07CAC8-F802-45E4-97A5-52DC6948B00D}
 		{7AD1234A-E85E-4B92-B9AD-4FD66807808E} = {DD07CAC8-F802-45E4-97A5-52DC6948B00D}
 		{BEBE933B-112C-42EC-9FCE-A39727FEA9E5} = {DD07CAC8-F802-45E4-97A5-52DC6948B00D}
+		{2A5F8AE4-C153-4C8A-96B2-7B30A9FF7B75} = {B33B7B24-7A28-4BE8-984D-F9E41CEA305A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D2677B3-8609-4EDB-94E1-961A68580DAF}
